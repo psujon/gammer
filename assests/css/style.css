@@ -3,3 +3,354 @@
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+header{
+    display: flex;    
+    height: 90px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+.logo-image{
+    /* margin-left: -10rem; */
+    font-size: 2rem;font-weight: 700;
+    padding: 1.5rem;
+}
+.logo-image img{
+    width: 30%;
+}
+.logo-image .logo-text-1{
+    color: #FF42A5;
+}
+.logo-image .logo-text-2{
+    color: #000;
+}
+.menu-items{
+    display: flex;
+    /* border: 1px solid black;     */
+    margin-right: 1.5rem;
+}
+.menu-items ul{
+    display: flex;
+    margin-right: 30px;
+} 
+.menu-items ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1em;
+}
+.top-social-icon .icon-body{
+    display: flex;   
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 0.5rem;
+    padding: 0rem 1rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+}
+.top-social-icon img{
+    height: 30px;
+    width: 30px;
+    border-radius: 25%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 30rem;
+}
+.signin{
+    margin-top: 5rem;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    margin-left: 5rem;
+}
+.signin h1{
+    font-size: 2rem;
+    color: #0B0223;
+    margin: 0px;
+}
+.signin h2{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#FF48B6 , #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0px;
+}
+.list{
+    margin-bottom: 30px;
+}
+.list img{
+    height: 20px;
+    margin-right:5px;
+}
+.list p{
+    padding: 5px;
+    line-height: 10px;
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+.btnGroup button{
+background-color: #FF42A5 ;
+padding: 0.8rem 1.5rem;
+border-radius: 2rem;
+margin-right: 0.5rem;
+border: none;
+color: #fff;
+}
+.btnGroup .btn2{
+    background-color: rgba(78, 197, 247, 1);
+}
+
+.bannerImage{
+    /* border: 1px solid black; */
+    margin-right: 2rem;
+}
+.bannerImage img{
+    /* width: 100%; */
+    height: 100%;
+}
+.gamer-area .gamer{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    /* height: 30rem; */    
+}
+.gamer .card{
+    text-align: right;
+    margin-top: 6rem;
+    margin-right: 3rem;
+}
+.gamer .card .card-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2rem;
+font-weight: 700;
+}
+.gamer .card p{
+    font-size: 0.8rem;
+    color: #534C64;
+    margin-bottom: 1.5rem;
+}
+.gamer .card button{
+background-color: #FF42A5 ;
+padding: 0.8rem 1.5rem;
+border-radius: 2rem;
+margin-right: 0.5rem;
+border: none;
+color: #fff;
+margin-bottom: 1.5rem;
+}
+.purpose{
+    line-height: 0;
+}
+
+.slogan{
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    color: #534C64 !important;
+}
+.online-games{
+    width: 100%;
+}
+.online-games h2{
+    color: #0B0223;
+    font-size: 2.5rem;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.online-games h2 span{
+    color: #FF42A5;
+}
+.online-games p{
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(83,76,100,1);    
+}
+.online-games .card{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.online-games .card .card-body img{
+    width: 100%;
+    height: 80%;
+}
+.online-games .card .card-body caption{
+    font-size: 0.7rem;
+}
+
+/* card start */
+.instant-play{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    height: 740px;
+}
+.campaign{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.campaign .card{
+    /* border: 1px solid black; */
+    width: 45%;
+    text-align: right;
+    margin-right: 7rem;
+}
+.campaign .card h2{
+    font-size: 2.5rem;
+    padding: 0;
+    color: #FF42A5;
+    margin: 0;
+}
+.campaign .card h3{
+    font-size: 2.5rem;
+    padding: 0;
+    color: #000;
+    margin: 0;
+}
+.campaign .card p{
+    font-size: 1rem;
+    color: rgba(83,76,100,1);
+}
+.campaign-image{
+    border: 1px solid black;
+    width: 50%;
+    position: relative;
+}
+.campaign-image .image-1{
+
+}
+.campaign-image .image-2{
+    position: absolute;
+    left: -10rem;
+    top: 23rem;
+}
+
+/* card end */
+
+.instant-play-online{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    height: 740px;
+}
+.instant-play-online .campaign{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* text-align: left;  */
+}
+.instant-play-online .campaign .card{
+    width: 45%;
+    text-align: left;
+    margin-left: 10rem;
+}
+.instant-play-online  .campaign .card h2{
+    font-size: 2.5rem;
+    padding: 0;
+    color: #FF42A5;
+    margin: 0;
+}
+.instant-play-online .campaign .card h3{
+    font-size: 2.5rem;
+    padding: 0;
+    color: #000;
+    margin: 0;
+}
+.instant-play-online .campaign .card p{
+    font-size: 1rem;
+    color: rgba(83,76,100,1);
+}
+.instant-play-online .campaign-image{
+    /* border: 1px solid black; */
+    width: 50%;
+    position: relative;
+}
+.instant-play-online .campaign-image .image-1{
+
+}
+.instant-play-online .campaign-image .image-2{
+    position: absolute;
+    left: 35rem;
+    top: 23rem;
+}
+
+.career{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.career-objectives{
+    width: 50%;
+}
+.career-goals
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 6rem;
+}
+.career-objectives h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+}
+.career-objectives p{
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: justify;
+}
+.career-objectives table{
+    color: #fff;
+    font-size: 0.9rem;
+    width: 100%;
+    margin: 20px 0px;
+}
+.career-objectives table tr{
+
+}
+.career-objectives table td:first-child{
+text-align: left;
+padding: 5px;
+}
+.career-objectives table td:last-child{
+    text-align: right;
+    padding: 5px;
+}
+.career-goals button{
+    color: #F948B2;
+    background-color: #fff;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.career-image{
+    width: 50%;
+}
+.career-image img{
+    width: 100%;
+}
+
+.tags{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+}
