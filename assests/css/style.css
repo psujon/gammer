@@ -198,7 +198,7 @@ margin-bottom: 1.5rem;
 .overlay{
     display: hidden;
 }
-.online-games .card .card-body img:hover .overlay{
+ .overlay{
     background-color: #534C64;    
     width: 100%;
     height: 80%;
@@ -219,7 +219,7 @@ margin-bottom: 1.5rem;
     height: 740px;
 }
 .campaign{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -248,7 +248,7 @@ margin-bottom: 1.5rem;
     color: rgba(83,76,100,1);
 }
 .campaign-image{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     position: relative;
 }
@@ -270,7 +270,7 @@ margin-bottom: 1.5rem;
     height: 740px;
 }
 .instant-play-online .campaign{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     display: flex;
     justify-content: center;
@@ -471,4 +471,382 @@ footer{
 .footer-copyright{
     color: #adabab;
     font-size: 0.7rem;
+}
+
+
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+        border: 1px solid black;
+    }
+    header{
+        /* display: flex;    */
+        /* flex-direction: column;  */
+        display: block;
+        height: 280px;
+        border: 1px solid black;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* width: 100%; */
+        text-align: center;
+    }    
+    .menu-items{
+        /* display: flex; */
+        flex-direction: column;
+        /* border: 1px solid black;     */
+        /* margin-right: 1rem; */
+        margin-top: -15px;
+    }
+    .menu-items ul{
+        /* display: flex; */
+        /* margin-right: 30px; */
+        flex-direction: column;
+    } 
+    
+    .top-social-icon{
+        /* text-align: center;
+        border: 1px solid #000; */
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+    }
+    .top-social-icon .icon-body{
+        width: 50%;
+    
+    }
+    .banner{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    border:1px solid black;
+    /* align-items: center;
+    justify-content: center; */
+    }
+    .signin{
+        /* order: 2;         */
+    }
+    .bannerImage{
+        /* order:1; */
+    }
+    .bannerImage img{
+        width: 100%;
+    }
+    .gamer-area{
+        width: 100%;
+    }
+    
+    .gamer-area .gamer{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* border: 1px solid black; */
+        /* height: 0rem;     */
+        flex-direction: column;
+        width: 100%;
+    }
+    .gamer img{
+        width: 100%;
+    }
+    .online-games{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .online-games h2{
+        color: #0B0223;
+        font-size: 1.6rem;
+        
+        text-align: center;
+    }
+    
+    .online-games .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 1rem;   */
+        /* width:;   */
+        text-align: center;
+        width: 50%;
+    }
+    .online-games .card .card-body{
+        position: relative;
+        width: 100%;
+    }
+    .online-games .card .card-body img{
+        width: 100%;
+        height: 80%;
+    }
+    .online-games .card .card-body caption{
+        font-size: 0.5rem;
+    }
+    
+    /* card start */
+    .instant-play{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #000;
+        /* justify-content: space-between; */
+        /* padding: 5px; */
+        width: 100%;
+        height: 740px;
+    }
+    .campaign{
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        margin: auto;
+    }
+    .campaign .card{
+        /* border: 1px solid black; */
+        width: 80%;
+        text-align: center;
+        /* margin-right: 7rem; */
+    }
+    .campaign .card h2{
+        font-size: 2.5rem;
+        padding: 0;
+        color: #FF42A5;
+        margin: 0;
+    }
+    .campaign .card h3{
+        font-size: 2.5rem;
+        padding: 0;
+        color: #000;
+        margin: 0;
+    }
+    .campaign .card p{
+        font-size: 1rem;
+        color: rgba(83,76,100,1);
+    }
+    .campaign-image{
+        /* border: 1px solid black; */
+        width: 50%;
+        position: relative;
+    }
+    .campaign-image .image-1{
+    
+    }
+    .campaign-image .image-2{
+        position: absolute;
+        left: -10rem;
+        top: 23rem;
+    }
+    
+    /* card end */
+    
+    .instant-play-online{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding: 5px; */
+        height: 900px;
+        width: 100%;
+    }
+    .instant-play-online .campaign{
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        /* text-align: left;  */
+    }
+    .instant-play-online .campaign .card{
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+        /* margin-left: 10rem; */
+    }
+    .instant-play-online  .campaign .card h2{
+        font-size: 1.6rem;
+        padding: 0;
+        color: #FF42A5;
+        margin: 0;
+    }
+    .instant-play-online .campaign .card h3{
+        font-size: 1.6rem;
+        padding: 0;
+        color: #000;
+        margin: 0;
+    }
+    .instant-play-online .campaign .card p{
+        font-size: 1rem;
+        color: rgba(83,76,100,1);
+    }
+    .instant-play-online .campaign-image{
+        /* border: 1px solid black; */
+        width: 50%;
+        position: relative;
+    }
+    .instant-play-online .campaign-image .image-1{
+    
+    }
+    .instant-play-online .campaign-image .image-2{
+        position: absolute;
+        left: 35rem;
+        top: 23rem;
+    }
+    
+    .career{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    }
+    .career-objectives{
+        width: 50%;
+    }
+    .career-goals
+    {
+        width: 70%;
+        margin: auto;
+        margin-top: 6rem;
+    }
+    .career-objectives h1{
+        font-size: 2.5rem;
+        color: #fff;
+        margin: 0;
+    }
+    .career-objectives p{
+        font-size: 0.8rem;
+        color: #fff;
+        text-align: justify;
+    }
+    .career-objectives table{
+        color: #fff;
+        font-size: 0.9rem;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .career-objectives table tr{
+    
+    }
+    .career-objectives table td:first-child{
+    text-align: left;
+    padding: 5px;
+    }
+    .career-objectives table td:last-child{
+        text-align: right;
+        padding: 5px;
+    }
+    .career-goals button{
+        color: #F948B2;
+        background-color: #fff;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+    .career-image{
+        width: 50%;
+    }
+    .career-image img{
+        width: 100%;
+    }
+    .tags{
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .tags .tags-body{
+        display: flex;
+        justify-content: space-evenly;
+        /* gap: 1.5rem;       */
+        width: 100%;
+        align-items: center;
+    }
+    .tags .tag-list{
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+    }
+    .tags .tag-list:hover{
+        border: 2px solid #FF48B6;
+        border-radius: 50px;    
+    }
+    .tags .tag-list:hover p{
+        color: #FF48B6;    
+    }
+    .tag-list img{
+        height:45px;
+        width: 45px;
+        border-radius: 25px;
+        margin-right: 5px;
+    }
+    .tag-list p{
+        color: #0B0223;
+        font-weight: bold;
+    }
+    footer{
+        background-color: #0B0223;
+        text-align: center;
+        height: 320px;
+        padding: 50px 0 0 0;
+    }
+    .footer-logo .logo-image{
+        /* margin-left: -10rem; */
+        font-size: 2rem;font-weight: 700;
+        padding: 1.5rem;
+    }
+    .footer-logo .logo-image img{
+        width: 60px;
+    }
+    .footer-logo .logo-image .logo-text-1{
+        color: #FF42A5;
+    }
+    .footer-logo .logo-image .logo-text-2{
+        color: #fff;
+    }
+    .footer-menu{    
+        margin-bottom: 30px;
+    }
+    .footer-menu ul{
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        gap: 1.5rem;
+    }
+    .footer-menu ul li{
+        list-style: none;    
+    }
+    .footer-menu ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .footer-social-icon{
+        margin-bottom: 30px;
+    }
+    .footer-social-icon img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .footer-site-policy{    
+    }
+    .footer-site-policy ul{
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        gap: 1.5rem;
+    }
+    .footer-site-policy ul li{
+        list-style: none;    
+    }
+    .footer-site-policy ul li a{
+        text-decoration: none;
+        color: #adabab;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .footer-copyright{
+        color: #adabab;
+        font-size: 0.7rem;
+    }
 }
